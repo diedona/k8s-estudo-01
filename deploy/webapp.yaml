@@ -35,6 +35,7 @@ spec:
               key: mongo-url
 
 ---
+# use "minikube service webapp-service --url" to get url
 apiVersion: v1
 kind: Service
 metadata:
